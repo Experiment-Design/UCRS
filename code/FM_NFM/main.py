@@ -217,8 +217,8 @@ for epoch in range(args.epochs):
 
     
     if epoch % 10 == 0:
-        if epoch < 100:
-            continue
+        #if epoch < 100:
+            #continue
             
         model.eval()
         train_RMSE = evaluate.RMSE(model, args.model, train_loader)
