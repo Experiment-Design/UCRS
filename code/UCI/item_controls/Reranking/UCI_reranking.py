@@ -19,7 +19,7 @@ from matplotlib import pyplot as plt
 from matplotlib.pyplot import MultipleLocator
 
 sns.set()
-random_seed = 1
+random_seed = 2
 pd.set_option('display.max_rows', None)
 
 parser = argparse.ArgumentParser()
@@ -55,7 +55,7 @@ args = parser.parse_args()
 print("args:", args)
 os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
 cudnn.benchmark = True
-seed = 1
+seed = 2
 
 ####
 # load data

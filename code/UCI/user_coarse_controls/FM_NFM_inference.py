@@ -21,7 +21,7 @@ from matplotlib import pyplot as plt
 from matplotlib.pyplot import MultipleLocator
 
 sns.set()
-random_seed = 1
+random_seed = 2
 pd.set_option('display.max_rows', None)
 
 parser = argparse.ArgumentParser()
@@ -57,7 +57,7 @@ args = parser.parse_args()
 print("args:", args)
 os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
 cudnn.benchmark = True
-seed = 1
+seed = 2
 if args.model == 'FM':
     file_head = "FM_DIGIX_64hidden_[64]layer_0.01lr_1024bs_[0.5,0.2]dropout_0.0lamda_1bn_500epoch_UF_min"
 elif args.model == 'NFM':
