@@ -54,7 +54,7 @@ parser.add_argument("--model_path",
 parser.add_argument("--rec_result_path",
     type=str,
     #+default="./rec_results/",
-    default="./kaggle/working/ucsr/rex_result",
+    default="UCRS/rex_result/",
     help="saved rec result path")
 parser.add_argument("--activation_function",
     type=str,
@@ -73,7 +73,7 @@ parser.add_argument("--batch_size",
     help="batch size for training")
 parser.add_argument("--epochs", 
     type=int,
-    default=5,
+    default=1,
     help="training epochs")
 parser.add_argument("--hidden_factor", 
     type=int,
