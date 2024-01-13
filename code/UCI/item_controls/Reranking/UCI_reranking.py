@@ -71,7 +71,7 @@ elif args.model == 'NFM':
         file_head = "NFM_amazon_book_64hidden_[32]layer_0.05lr_1024bs_[0.3,0.3]dropout_0.0lamda_1bn_500epoch"
 else:
     print('not implement')
-    file_head=args.file_head
+file_head=args.file_head
 print("file_head", file_head)
 
 if args.dataset == 'ml_1m':
