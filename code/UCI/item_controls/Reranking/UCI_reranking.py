@@ -72,6 +72,7 @@ elif args.model == 'NFM':
 else:
     print('not implement')
 file_head=args.file_head
+print("TEEST")
 print("file_head", file_head)
 
 if args.dataset == 'ml_1m':
