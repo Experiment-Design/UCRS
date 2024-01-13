@@ -54,7 +54,7 @@ parser.add_argument("--model_path",
 parser.add_argument("--rec_result_path",
     type=str,
     #+default="./rec_results/",
-    default="/kaggle/working/UCRS/rex_result/",#test
+    default="./rex_results/",#test
     help="saved rec result path")
 parser.add_argument("--activation_function",
     type=str,
