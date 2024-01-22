@@ -162,7 +162,7 @@ else:
     print('not implement')
 FM_file_head = args.file_head
 print("TEEST")
-print("file_head", file_head)
+print("file_head", FM_file_head)
     
 if args.dataset == 'ml_1m':
     file_head = "MLP_ml_1m_[32]layer_0.01lr_512bs_0.2dropout_0.1lamda_Adagrad_tanh_1bn_3000epoch"
