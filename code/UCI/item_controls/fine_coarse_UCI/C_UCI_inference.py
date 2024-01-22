@@ -92,6 +92,10 @@ parser.add_argument("--gpu",
     type=str,
     default="0",
     help="gpu card ID")
+parser.add_argument("--file_head",
+    type=str,
+    default="",
+    help="saved file name with hyper-parameters")
 args = parser.parse_args()
 print("args:", args)
 
@@ -156,6 +160,9 @@ elif args.dataset == 'amazon_book':
         print('not implement')
 else:
     print('not implement')
+FM_file_head = args.FM_file_head
+print("TEEST")
+print("file_head", file_head)
     
 if args.dataset == 'ml_1m':
     file_head = "MLP_ml_1m_[32]layer_0.01lr_512bs_0.2dropout_0.1lamda_Adagrad_tanh_1bn_3000epoch"
