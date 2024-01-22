@@ -160,7 +160,7 @@ elif args.dataset == 'amazon_book':
         print('not implement')
 else:
     print('not implement')
-FM_file_head = args.FM_file_head
+FM_file_head = args.file_head
 print("TEEST")
 print("file_head", file_head)
     
