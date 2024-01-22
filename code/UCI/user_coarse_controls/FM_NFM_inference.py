@@ -64,6 +64,7 @@ elif args.model == 'NFM':
     file_head = "NFM_DIGIX_64hidden_[4]layer_0.01lr_1024bs_[0.5,0.3]dropout_0.0lamda_1bn_500epoch_UF_min"
 else:
     print('not implement')
+file_head = args.file_head
 print(file_head)
 topN = eval(args.topN)
 
